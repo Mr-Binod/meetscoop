@@ -12,7 +12,6 @@
 - [개발 기간](#개발-기간)
 - [기술 스택](#기술-스택)
 - [협업 도구](#협업-도구-communication)
-- [테이블 구성](#테이블-구성)
 - [폴더 구조](#폴더-구조)
 
 ## 프로젝트 소개
@@ -35,13 +34,18 @@ meetscoop는 도호회 회원들의 적극적인 참여를 통해 협력과 성�
 
 <div>
 <img src="https://github.com/zzeen2.png" width="80px"><br>
-<a href="https://github.com/zzeen">팀원 : 깁지은 </a><br>
+<a href="https://github.com/zzeen2">팀원 : 깁지은 </a><br>
 역활 : 도호회 페이지, 추가 페이지, 상세 페이지
 </div>
 
 
 ## 화면 구성 :
-    
+<label>카카오 로그인</label>
+<img src="./public/images/gif/kakaologinscoop-ezgif.com-speed.gif"><br><br>
+<label>개인 정보 수정</label>
+<img src="./public/images/gif/mypagedetails-ezgif.com-video-to-gif-converter.gif"><br><br>
+<label>마이 페이지 기능</label>
+<img src="./public/images/gif/personaldetaileditscoop-ezgif.com-speed.gif">
 ## 주요 기능: 
 
 ### 담당 : 로그인 페이지
@@ -62,40 +66,79 @@ meetscoop는 도호회 회원들의 적극적인 참여를 통해 협력과 성�
 
 
 ## API 문서 
-- GET /login   : 로그인 페이지 
-- GET /kakao/login    : 카카오 로그인 화면 페이지
-- GET /auth/kakao/callback  : 카카오 로그인 인증받고 쿠키 생성후 로그인 완료
-- GET /mypage   : 마이 페이지 이동
-- GET /logout   : 로그아웃 화면 이동
-- GET /auth/kakao/logout/callback   : 쿠키 삭제후 로그아웃 메인 페이지 이동
-- GET /Edituser     : 유저 정보 수정 페이지 
-- GET /checkcookie    : 쿠키 확인 
 
-- POST /Edituser    : 유저 정보 수정 
+<table> <tr> <th>Method</th> <th>Route</th> <th>Description</th> </tr> <tr> <td>GET</td> <td>/login</td> <td>로그인 페이지</td> </tr> <tr> <td>GET</td> <td>/kakao/login</td> <td>카카오 로그인 화면 페이지</td> </tr> <tr> <td>GET</td> <td>/auth/kakao/callback</td> <td>카카오 로그인 인증받고 쿠키 생성후 로그인 완료</td> </tr> <tr> <td>GET</td> <td>/mypage</td> <td>마이 페이지 이동</td> </tr> <tr> <td>GET</td> <td>/logout</td> <td>로그아웃 화면 이동</td> </tr> <tr> <td>GET</td> <td>/auth/kakao/logout/callback</td> <td>쿠키 삭제후 로그아웃 메인 페이지 이동</td> </tr> <tr> <td>GET</td> <td>/Edituser</td> <td>유저 정보 수정 페이지</td> </tr> <tr> <td>GET</td> <td>/checkcookie</td> <td>쿠키 확인</td> </tr>  </table>
+
+<table> <tr> <th>Method</th> <th>Route</th> <th>Description</th> </tr> <tr> <td>POST</td> <td>/Edituser</td> <td>유저 정보 수정</td> </tr> </table>
 
 
 ## 기술 스택 
 ### FRONTEND
 
-<img src="./public/techstack/html-5_5968267.png " width="200px">
-<img src="./public/techstack/css.png " width="200px">
-<img src="./public/techstack/js_5968292.png "width="200px">
+<table>
+  <tr>
+    <td align="center">
+      <img src="./public/techstack/html-5_5968267.png" width="200px"><br>
+      <label>HTML5</label>
+    </td>
+    <td align="center">
+      <img src="./public/techstack/css.png" width="200px"><br>
+      <label>CSS</label>
+    </td>
+    <td align="center">
+      <img src="./public/techstack/js_5968292.png" width="200px"><br>
+      <label>JavaScript</label>
+    </td>
+  </tr>
+</table>
 
 ### BACKEND
-<img src="./public/techstack/js_5968292.png " width="200px">
-<img src="./public/techstack/mysql.png " width="200px">
-<img src="./public/techstack/nodejs.256x157.png " width="200px">
+<table>
+  <tr>
+    <td align="center">
+      <img src="./public/techstack/js_5968292.png" width="200px"><br>
+      <label>JavaScript</label>
+    </td>
+    <td align="center">
+      <img src="./public/techstack/mysql.png" width="200px"><br>
+      <label>MySQL</label>
+    </td>
+    <td align="center">
+      <img src="./public/techstack/nodejs.256x157.png" width="200px"><br>
+      <label>Node.js</label>
+    </td>
+  </tr>
+</table>
 
 ### API
-<img src="./public/techstack/kakao.png">
-<img src="./public/techstack/kakaomap.png">
+<table>
+  <tr>
+    <td align="center">
+      <img src="./public/techstack/kakao.png" width="200px"><br>
+      <label>Kakao</label>
+    </td>
+    <td align="center">
+      <img src="./public/techstack/kakaomap.png" width="200px"><br>
+      <label>Kakao Map</label>
+    </td>
+  </tr>
+</table>
 
 ### 협업 도구 COMMUNICATION 
-<img src="./public/techstack/Notion.png " width="200px">
-<img src="./public/techstack/github_2504911.png " width="200px">
+<table>
+  <tr>
+    <td align="center">
+      <img src="./public/techstack/Notion.png" width="200px"><br>
+      <label>Notion</label>
+    </td>
+    <td align="center">
+      <img src="./public/techstack/github_2504911.png" width="200px"><br>
+      <label>GitHub</label>
+    </td>
+  </tr>
+</table>
 
-## 테이블 구성
-<img src="./public/techstack/erdtable.png " height="500px">
+
 
 ## 폴더 구조
 ### 프론트 폴더 구조
