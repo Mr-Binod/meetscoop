@@ -6,6 +6,7 @@
 
 ## 목차
 - [프로젝트 소개](#프로젝트-소개)
+- [배포 사이트](#배포-사이트)
 - [팀원 소개](#팀원-소개)
 - [화면 구성](#화면-구성)
 - [주요 기능](#주요-기능)
@@ -18,6 +19,9 @@
 meetscoop는 도호회 회원들의 적극적인 참여를 통해 협력과 성장을 도모하는 것을 목표로 합니다. 성공적인 동호회 프로젝트 사례를 참고하여 기대 요과와 구체적인 결과물을 제시합니다.
 
 ---
+## 배포 사이트
+https://meetscoop.shop
+
 
 ## 팀원 소개 
 <div>
@@ -39,9 +43,14 @@ meetscoop는 도호회 회원들의 적극적인 참여를 통해 협력과 성�
 </div>
 
 
-## 화면 구성 
-    
-## 주요 기능
+## 화면 구성 :
+<label>카카오 로그인</label>
+<img src="./public/images/gif/kakaologinscoop-ezgif.com-speed.gif"><br><br>
+<label>개인 정보 수정</label>
+<img src="./public/images/gif/mypagedetails-ezgif.com-video-to-gif-converter.gif"><br><br>
+<label>마이 페이지 기능</label>
+<img src="./public/images/gif/personaldetaileditscoop-ezgif.com-speed.gif">
+## 주요 기능: 
 
 ### 담당 : 로그인 페이지
 - 카카오 인증 사용해서 로그인 페이지 구현
