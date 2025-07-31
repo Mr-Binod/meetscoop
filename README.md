@@ -2,11 +2,7 @@
 
 # meetscoop
 
-## 배포 사이트
-https://meetscoop.shop
-
-
-<h2><a href="">Meetscoop 이동 링크</a></h2>
+<h2><a href="https://meetscoop.shop">Meetscoop 이동 링크</a></h2>
 
 ## 목차
 - [배포 사이트](#배포-사이트)
